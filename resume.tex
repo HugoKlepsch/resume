@@ -1,45 +1,86 @@
 \documentclass{resume}
 
 \usepackage[left=0.25in,top=0.2in,right=0.25in,bottom=0.2in]{geometry}
+\usepackage{multicol}
 
 \name{Hugo Klepsch}
 \address{ 5663 Appleby line \\ Burlington, ON L7M0P3  }
 \address{ 905~$\cdot$~749~$\cdot$~4627 \\ hugo.klepsch@gmail.com }
 
+\setlength{\columnsep}{0.1cm}
+
 \begin{document}
 
   \begin{rSection}{Education}
     {\bf University of Guelph} \hfill {\em September 2015 - April 2020} \\ 
-    { B.Comp. Software Engineering (Co-op), Honours } \\
-    { Minor in Marketing } \smallskip \\
-    { Dr. Mary McLeish Scholarship recipient (Highest GPA in Software engineering major)
-} \\
-    { 2018 Braithwaite Business Scholarship
-} \\
-    { Deans list }
+    { B.Comp. Software Engineering (Co-op), Honours } 
+    \begin{list}{$\cdot$}{\leftmargin=2em}
+    	\itemsep -0.5em \vspace{-0.5em}
+    	\item { Minor in Marketing }
+    	\item { Dr. Mary McLeish Scholarship recipient (Highest GPA in Software engineering major)} 
+    	\item { 2018 Braithwaite Business Scholarship} 
+    	\item { Deans list }
+    \end{list}
   \end{rSection}
-  
+
   \begin{rSection}{Experience}
   
     \begin{rSubsection}{Arctic Wolf Networks}
     	{May 2018 - August 2018, January 2019 - August 2019}
     	{Member of technical staff}{Waterloo, ON}
-    \item Used Esper, Apache Flink and Hadoop as part of a complex event processing pipeline to find patterns in unbounded series of events.
+    \item Used Esper, Apache Flink and Hadoop as part of a complex event processing pipeline to find 
+    patterns in unbounded series of events.
     \item Part of team that pioneered construction of time-series anomaly detection system.
-    \item Wrote independent auto-scaling services as part of a data processing pipeline that processed 8 billion messages
-per day.
+    \item Wrote independent auto-scaling services as part of a data processing pipeline that processed 8 
+    billion messages per day.
     \item Added metrics and stability alerts to services.
     \end{rSubsection}
-  
+
     \begin{rSubsection}{Carnegie Technologies}
     	{May 2017 - December 2017}
     	{Native back-end developer}{Waterloo, ON}
     \item Developed native C++ GPS and ephemeris libraries for use in embedded devices.
-    \item Participated in the design of, and implemented REST style microservices using Node.js and RabbitMQ.
-    \item Designed and implemented C++ and Node.js RabbitMQ messaging library with support for a variety of usage patterns (Consumer, Requester).
-    \item Designed and implemented C++ JSON manipulation and validation library with support for proprietary extensionsto JSON schema specification.
+    \item Participated in the design of, and implemented REST style microservices using Node.js and 
+    RabbitMQ.
+    \item Designed and implemented C++ and Node.js RabbitMQ messaging library with support for a variety 
+    of usage patterns (Consumer, Requester).
+    \item Designed and implemented C++ JSON manipulation and validation library with support for 
+    proprietary extensions to JSON schema specification.
     \end{rSubsection}
 
+  \end{rSection}
+
+  \begin{rSection}{Open Source Contributions}
+  	\begin{center}
+  		\begin{minipage}[t]{0.33333\textwidth}
+  			\raggedright
+  			{\bf avast-tl/retdec} \\
+  			{\em December 2017}\\
+  			\begin{list}{$\cdot$}{\leftmargin=0.8em}
+  				\itemsep -0.5em \vspace{-0.2em}
+  				\item {\small Proposed and added Dockersupport}
+  			\end{list}
+  		\end{minipage}%
+	  	\begin{minipage}[t]{0.33333\textwidth}
+	  		\raggedright
+	  		{\bf netmail-open/wjelement}\\
+  			{\em November 2017} \\
+  			\begin{list}{$\cdot$}{\leftmargin=0.8em}
+  				\itemsep -0.0em \vspace{-0.2em}
+  				\item {\small Found and fixed bug causing librarynot to compile with glibc}
+  				\item {\small Added date-time support to JSONschema verification system}
+  			\end{list}
+	  	\end{minipage}%
+	  	\begin{minipage}[t]{0.33333\textwidth}
+	  		\raggedright
+	  		{\bf DefinitelyTyped/DefinitelyTyped}\\
+  			{\em July 2017} \\
+  			\begin{list}{$\cdot$}{\leftmargin=0.8em}
+  				\itemsep -0.0em \vspace{-0.2em}
+  				\item {\small Added typescript type definitions for various Node.js libraries}
+  			\end{list}
+	  	\end{minipage}
+	  \end{center}
   \end{rSection}
   
   \begin{rSection}{Technical Strengths}
