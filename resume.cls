@@ -80,7 +80,7 @@
 
 % Used to create large resume section
 \newenvironment{rSection}[1]{
-  \vspace{-0.5em}
+  \vspace{-0.2em}
   \MakeUppercase{\bf #1}
   \sectionlineskip
   \hrule
