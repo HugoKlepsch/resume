@@ -37,10 +37,10 @@
 
 % \address command can be used to set first and second address (optional)
 \def \address #1{
-  \@ifundefined{@addresstwo}{
-    \def \@addresstwo {#1}
-  }{
+  \@ifundefined{@addressone}{
     \def \@addressone {#1}
+  }{
+    \def \@addresstwo {#1}
   }
 }
 
