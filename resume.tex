@@ -101,24 +101,18 @@
     \begin{rSubsection2Titles}{Arctic Wolf Networks}{Waterloo, ON}
     {Senior Developer} {January 2023 - Present}
     {Member of technical staff} {May 2018 - August 2018, January 2019 - August 2019, July 2020 - December 2023}
-      \item Used Esper, Apache Flink and Hadoop as part of a complex event processing pipeline
-      to find patterns in unbounded series of real-time events
+      \item Controlled schema chaos by integrating a schema registry into a legacy data pipeline
+      \item Developed many streaming ETL (Extract, Transform, Load) pipelines while integrating hundreds of
+        security-related data sources (Identity providers, firewalls, DHCP/DNS/NTP/email/Domain servers,
+        antivirus/endpoint/user software, network scanners etc)
+      \item Worked with stakeholders to bring a product from concept to delivery
+      \item Used Esper, Apache Flink and Hadoop as part of a CEP (Complex Event Processing) pipeline
+      to find patterns in an unbounded series of real-time events
       \item Lead design and implementation of auto-scaling microservices supporting
-      over 580000 messages per second
+      over 11 million messages per second
       \item Integrated new functionality without downtime into a data analysis pipeline
-      processing 50 billion messages per day
-      \item Used Agile development techniques to design, implement, and support software systems
-      at all stages of the software life-cycle
+      processing 1 trillion messages per day
     \end{rSubsection2Titles}
-    \begin{rSubsection}{Carnegie Technologies}{Waterloo, ON}
-    {Native back-end developer} {May 2017 - December 2017}
-      \item Developed native C++ GPS and ephemeris libraries for use in embedded devices
-      \item Implemented REST style microservices using Node.js and RabbitMQ
-      \item Designed and implemented C++ and Node.js RabbitMQ messaging library with
-      support for a variety of usage patterns (Consumer, Requester)
-      \item Designed and implemented C++ JSON manipulation and validation library with
-      support for proprietary extensions to JSON schema specification
-    \end{rSubsection}
   \end{rSection}
 
   \begin{rSection}{Education}
@@ -132,7 +126,25 @@
   \end{rSection}
 
   \begin{rSection}{Personal Projects}
-    \vspace{-0.5em}
+    \vspace{-1.5em}
+    \begin{center}
+      \begin{minipage}[t]{0.25\textwidth}
+        \raggedright
+        \textbf{Maintainer of \href{https://github.com/caddy-dns/linode}{caddy-dns/linode}}\\
+        \emph{August 2025-Present}\\
+      \end{minipage}%
+      \begin{minipage}[t]{0.75\textwidth}
+        \raggedright
+        \begin{list}{$\cdot$}{\leftmargin=0.8em\rightmargin=0.8em}
+          \itemsep -0.3em
+          \vspace{-0.6em}
+          \item {Implements connector to Linode DNS nameserver API so that the
+            \href{https://github.com/caddyserver/caddy}{Caddy}webserver can automatically complete
+            \href{https://letsencrypt.org/docs/challenge-types/#dns-01-challenge}{DNS-01 ACME challenges}}
+        \end{list}
+      \end{minipage}%
+    \end{center}
+    \vspace{-0.6em}
     \begin{center}
       \begin{minipage}[t]{0.25\textwidth}
         \raggedright
@@ -142,7 +154,8 @@
       \begin{minipage}[t]{0.75\textwidth}
         \raggedright
         \begin{list}{$\cdot$}{\leftmargin=0.8em\rightmargin=0.8em}
-          \itemsep -0.3em \vspace{-0.2em}
+          \itemsep -0.3em
+          \vspace{-0.6em}
           \item {Created "Snake" AI to battle other snakes in battle-royale snake competition}
           \item {Won 1st in Platinum league out of hundreds of other competitors}
           \item {Various versions used Dijkstra and A* path-finding algorithms to optimize food intake}
@@ -152,6 +165,7 @@
     \end{center}
   \end{rSection}
 
+  \vspace{-0.6em}
   \begin{rSection}{Volunteer History}
     \begin{rSubsection}{Mentor, programming teacher and alumni}{Burlington, ON}
     {FIRST Robotics Competition (FRC) team \href{https://burlingtoncommunityrobotics.ca/frc-2200/}{2200}}
@@ -170,15 +184,19 @@
 
   \begin{rSection}{Technical Strengths}
     \begin{rSubsection}{Computer Languages}{}{}{}
+      \vspace{-0.6em}
       Python, Go, Java, C/C++, Bash, Node.js
     \end{rSubsection}
     \begin{rSubsection}{Tools \& Tech}{}{}{}
+      \vspace{-0.6em}
       Linux, Git, Docker, K8s, Prometheus metrics, Command-line tools, Kafka, Avro, Hazelcast, Flink, Esper,
       Hadoop, Redis, PostgreSQL, ElasticSearch, AWS-\{S3, SQS, Lambda, ElastiCache, CloudFormation, CloudWatch, EC2, ECS,
-      ECR, EMR, GuardDuty, Athena\}, CUDA, OpenCV, TensorRT, FreeCAD, OnShape, UML, RabbitMQ, Vim, \LaTeX
+      ECR, EMR, GuardDuty, Athena\}, CUDA, OpenCV, TensorRT, FreeCAD, OnShape, UML, RabbitMQ, AI developmer aids
+      (ex: Claude Code), Vim, \LaTeX
     \end{rSubsection}
     \begin{rSubsection}{Development Practices}{}{}{}
-      Agile: \{Scrum, Spiral\}, Waterfall, DevOps, CI/CD, Test Driven Development, Risk management,
+      \vspace{-0.6em}
+      Agile: \{Scrum, Spiral\}, Waterfall, DevOps, CI/CD, AI developer aids, Test Driven Development, Risk management,
       Technical reviews, Quality assurance
     \end{rSubsection}
   \end{rSection}
